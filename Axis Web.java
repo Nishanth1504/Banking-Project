@@ -57,6 +57,17 @@ public class CreateWebSource
           null,
           "en" 
         );
+		#feature-1 changes made by nishanth on 3 march on simple web source
+		adminPort.createAll(
+          "source",
+          webSourceXML,
+          "password",
+          credentials,
+          null,
+          null,
+          "en" 
+        );
+		#end of feature-1
  
         // 2. Export all sources to show the full definition
         ObjectOutput oo = adminPort.exportAll(
