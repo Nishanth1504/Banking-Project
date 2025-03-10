@@ -57,6 +57,17 @@ public class CreateWebSource
           null,
           "en" 
         );
+		#feature-2 changes by aparna on 3 march
+		  adminPort.createAll(
+          "sourceGroup",
+          sourceGroupXML,
+          null,
+          credentials,
+          null,
+          null,
+          "en"
+        );
+		#end of feature-2 changes
  
         // 2. Export all sources to show the full definition
         ObjectOutput oo = adminPort.exportAll(
